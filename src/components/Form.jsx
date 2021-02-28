@@ -2,7 +2,7 @@ import React from 'react'
 
 export default (props) => {
     return(
-        <div role='form'>
+        <div role='form' className='col-sm-9 col-md-12 col-xs-12'>
             <div className="campo">
                 <label htmlFor="job">Job Description</label><br/>
                 <input id="description"
